@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'iconfont'; /* Project id 2606902 */
+  src: url('iconfont.woff2?t=1623911378487') format('woff2'),
+    url('iconfont.woff?t=1623911378487') format('woff'),
+    url('iconfont.ttf?t=1623911378487') format('truetype');
+}
+
+.iconfont {
+  font-family: 'iconfont' !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-down:before {
+  content: '\e7eb';
+}
+
+.icon-message:before {
+  content: '\e78a';
+}
+
+.icon-setting:before {
+  content: '\e78e';
+}
+
+.icon-edit-square:before {
+  content: '\e791';
+}
+
+.icon-user:before {
+  content: '\e7ae';
+}
+
+.icon-solution:before {
+  content: '\e7b5';
+}
+
+.icon-snippets:before {
+  content: '\e7bc';
+}
+
+.icon-safetycertificate:before {
+  content: '\e7c0';
+}
+
+.icon-home:before {
+  content: '\e7c6';
+}
+
+.icon-customerservice:before {
+  content: '\e7ca';
+}
+
+.icon-accountbook:before {
+  content: '\e7d3';
+}
+
+.icon-video:before {
+  content: '\e7da';
+}
+
+.icon-wrench:before {
+  content: '\e7e5';
+}

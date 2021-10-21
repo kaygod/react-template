@@ -1,0 +1,12 @@
+module.exports = {
+  "plugins": [
+    [
+      require.resolve('babel-plugin-module-resolver'),
+      {
+        alias: {
+          '@': './src/'
+        },
+      },
+    ]
+  ]
+};

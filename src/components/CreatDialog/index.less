@@ -1,0 +1,63 @@
+.pop_box{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0; 
+    bottom: 0;
+    background-color: rgba(91,91,91,.8);
+    z-index: 9999;
+}
+.contain_box{
+    min-width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #fff;
+    .title {
+        width: 100%;
+        color: #666;
+        display: flex;
+        font-size: 14px;
+        justify-content: space-between;
+        border-bottom: 1px solid #CFCFCF;
+        padding: 10px;
+        font-weight: bold;
+        align-items: center;
+    box-sizing: border-box;
+    .close_btn {
+            width: 20px;
+            height: 20px;
+            background-image: url(../../images/app_backstage_icon.png);
+            background-position: -2px 1233px;
+        }
+
+        .close_btn {
+            cursor: pointer;
+        }
+    }
+    .render_content{
+        padding: 10px;
+        text-align: center;
+    }
+    .btn_box {
+        display: flex;
+        justify-content: center;
+
+        div {
+            width: 124px;
+            height: 33px;
+            line-height: 33px;
+            text-align: center;
+            margin-right: 10px;
+            cursor: pointer;
+            color: #fff;
+            background-color: #B5B2B2;
+            cursor: pointer;
+            margin-bottom: 30px;
+        }
+        .delete{
+            background-color: #0064D4;
+        }
+    }
+}
