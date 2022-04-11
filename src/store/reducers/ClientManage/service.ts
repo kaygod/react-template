@@ -1,6 +1,7 @@
 import * as actions from './index';
 import { fetch, deepCopy } from '@/utils/common';
-import { getter,superDataType } from "./index";
+import { superDataType } from "./index";
+import { getter } from "./getter";
 import { globalRef } from "@/views/HomePage";
 
 export const updateInitState = (search:string)=> async (

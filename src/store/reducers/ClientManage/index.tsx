@@ -92,10 +92,6 @@ export enum pageType {
   edit = 2
 }
 
-export const getter = (state: any): dataType => {
-  return state.ClientManage;
-};
-
 export const counterSlice = createSlice({
   name: 'ClientManage',
   initialState: {

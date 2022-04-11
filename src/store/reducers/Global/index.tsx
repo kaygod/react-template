@@ -17,8 +17,8 @@ export const counterSlice = createSlice({
   },
 });
 
-export const getter = (state: any) => {
-  return state.Global;
+export const getNavigation = (state: any) => {
+  return state.Global.navigation;
 };
 
 // Action creators are generated for each case reducer function

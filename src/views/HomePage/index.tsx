@@ -1,5 +1,5 @@
 import React,{useEffect} from 'react';
-import "./index.less"; 
+import { Wrapper } from "./style.js"; 
 
 interface locationType {
     search:string
@@ -16,9 +16,11 @@ export const globalRef:{value:any} = {
 
 const HomePage = (props:defaultProps) => {
         return (
-            <div className="client-manage">
-              Hello world
-            </div>
+            <Wrapper>
+              <div className="client-manage">
+                Hello world
+              </div>
+            </Wrapper>
         );
 };
 
